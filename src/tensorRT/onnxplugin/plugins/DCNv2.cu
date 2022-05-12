@@ -331,7 +331,6 @@ static void enqueue_native(cublasHandle_t handle, const std::vector<GTensor>& in
     }
 }
 
-
 class DCNv2 : public TRTPlugin {
 public:
     cublasHandle_t cublasHandle_ = nullptr;
