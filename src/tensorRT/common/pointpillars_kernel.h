@@ -22,7 +22,7 @@
 #include <cuda.h>
 #include <cuda_fp16.h>
 #include <cuda_runtime_api.h>
-#include "params.h"
+#include "common/pointpillar_params.h"
 
 const int THREADS_FOR_VOXEL = 256;    // threads number for a block
 const int POINTS_PER_VOXEL = 32;      // depands on "params.h"
